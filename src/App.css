@@ -1,0 +1,39 @@
+#root {
+  /* max-width: 1280px; */
+  text-align: center;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  transition: margin-left 0.3s ease;
+}
+
+.app-center{
+  display: flex;
+  height: 100vh;
+  min-width: 100%;
+  width: auto;
+}
+
+.app-closed-sidenav{
+  display: flex;
+  background-color: whitesmoke;
+  min-width: 2em;
+  transition: min-width 0.3s ease;
+}
+
+.app-open-sidenav{
+  display: flex;
+  background-color: whitesmoke;
+  min-width: 16em;
+  transition: min-width 0.3s ease;
+}
+
+.router-outlet{
+  display: flex;
+  width: auto;
+  /* background-color: red; */
+}
